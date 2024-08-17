@@ -15,13 +15,13 @@ export default function Testimonial() {
   const [currentEventIndex, setCurrentEventIndex] = useState(0);
 
   const testimonials = [
-    { title: 'Annette Black', description: 'I finally opened the package and used the system today. It is gorgeous, and I can tell you took great pride in building it. I really appreciate it.', imageUrl: '/assets/images/profile.png' },
-    { title: 'Marvin McKinney', description: 'Sturdy enclosure, but the game lacks a reset button, which means you have to turn it off and on again to play another game.', imageUrl: '/assets/images/profile.png' },
-    { title: 'Robert Fox', description: 'Love the racing games on this cabinet. It is tall enough for a 6-foot person and easy to use. The cabinet also looks great.', imageUrl: '/assets/images/profile.png' },
-    { title: 'Annette Black', description: 'I finally opened the package and used the system today. It is gorgeous, and I can tell you took great pride in building it. I really appreciate it.', imageUrl: '/assets/images/profile.png' },
-    { title: 'Marvin McKinney', description: 'Sturdy enclosure, but the game lacks a reset button, which means you have to turn it off and on again to play another game.', imageUrl: '/assets/images/profile.png' },
-    { title: 'Robert Fox', description: 'Love the racing games on this cabinet. It is tall enough for a 6-foot person and easy to use. The cabinet also looks great.', imageUrl: '/assets/images/profile.png' },
-    { title: 'Annette Black', description: 'I finally opened the package and used the system today. It is gorgeous, and I can tell you took great pride in building it. I really appreciate it.', imageUrl: '/assets/images/profile.png' },
+    { title: 'Annette Black', description: 'I finally opened the package and used the system today. It is gorgeous, and I can tell you took great pride in building it. I really appreciate it.', imageUrl: '/assets/images/dome/girl.png' },
+    { title: 'Marvin McKinney', description: 'Sturdy enclosure, but the game lacks a reset button, which means you have to turn it off and on again to play another game.', imageUrl: '/assets/images/dome/man.png' },
+    { title: 'Robert Fox', description: 'Love the racing games on this cabinet. It is tall enough for a 6-foot person and easy to use. The cabinet also looks great.', imageUrl: '/assets/images/dome/man1.png' },
+    { title: 'Annette Black', description: 'I finally opened the package and used the system today. It is gorgeous, and I can tell you took great pride in building it. I really appreciate it.', imageUrl: '/assets/images/dome/girl2.png' },
+    { title: 'Marvin McKinney', description: 'Sturdy enclosure, but the game lacks a reset button, which means you have to turn it off and on again to play another game.', imageUrl: '/assets/images/dome/man.pn' },
+    { title: 'Robert Fox', description: 'Love the racing games on this cabinet. It is tall enough for a 6-foot person and easy to use. The cabinet also looks great.', imageUrl: '/assets/images/dome/girl.png' },
+    { title: 'Annette Black', description: 'I finally opened the package and used the system today. It is gorgeous, and I can tell you took great pride in building it. I really appreciate it.', imageUrl: '/assets/images/dome/girl2.png' },
   ];
 
   const scrollNext = () => {
