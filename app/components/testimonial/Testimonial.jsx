@@ -44,16 +44,16 @@ export default function Testimonial() {
   };
 
   return (
-    <div className="w-full overflow-hidden relative flex justify-center items-center py-[40px] md:py-[50px] lg:py-[100px]">
+    <div className="w-full overflow-hidden relative flex justify-center items-center py-[40px]">
       <div className="max-w-7xl w-full px-4 md:px-8">
         <div className="mx-auto py-8">
           <div className="text-end"></div>
           <div className="md:flex md:justify-between items-cente mt-[36px] lg:mb-[41px]">
             <div>
-              <h1 className="text-[32px] md:text-[54px] text-[#ff0a01] font-normal font-orbitron">
+              <h1 className="text-[32px] md:text-[54px] text-white font-normal font-orbitron">
                 TESTIMONIAL
               </h1>
-              <p className="text-[14px] md:text-[24px] text-gray-900 font-NORMAL font-JURA">
+              <p className="text-[14px] md:text-[24px] text-white font-NORMAL font-JURA">
                   THE MAIN REASON FOR YOUR CHOICE IS OUR BUS
                 </p>
             </div>
@@ -61,7 +61,7 @@ export default function Testimonial() {
               <div className="mt-[20px] md:mt-[0px] w-65 h-45">
                 <button
                   onClick={scrollPrev}
-                  className="button-slanted cursor-pointer flex items-center justify-center px-6 py-4 border-[0.5px] border-opacity-30 border-white font-jura font-bold text-white hover:bg-gradient-to-r ml-2 hover:from-[#D00746] hover:to-[#7E51F8] transition duration-300 rounded-tl-lg rounded-br-lg hover:border-0"
+                  className="cursor-pointer flex items-center justify-center px-6 py-4 ml-2 font-jura font-bold text-white border-2 border-opacity-50 rounde-full hover:bg-gray-800 hover:border-[0px] "
                 >
                   <Image src={leftArrow} alt="arrow" width={12} height={11} />
                 </button>
@@ -69,7 +69,7 @@ export default function Testimonial() {
               <div className="mt-[20px] md:mt-[0px] w-65 h-45">
                 <button
                   onClick={scrollNext}
-                  className="button-slanted cursor-pointer flex items-center justify-center px-6 py-4 border-[0.5px] border-opacity-30 border-white font-jura font-bold text-white hover:bg-gradient-to-r ml-2 hover:from-[#D00746] hover:to-[#7E51F8] transition duration-300 rounded-tl-lg rounded-br-lg hover:border-0"
+                  className="cursor-pointer flex items-center justify-center px-6 py-4 ml-2 font-jura font-bold text-white border-2 border-opacity-50 rounde-full hover:bg-gray-800 hover:border-[0px] "
                 >
                   <Image src={rightArrow} alt="arrow" width={12} height={11} />
                 </button>

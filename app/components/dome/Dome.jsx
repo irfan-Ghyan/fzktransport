@@ -127,7 +127,7 @@ const Dome = () => {
   return (
     <div className="flex justify-center items-center">
       <div className='w-full max-w-7xl px-4 md:px-8'>
-        <div className='py-[40px] text-center'>
+        <div className='pt-[40px] text-center'>
           <h1 className='text-[32px] md:text-[54px] text-[#ff0a01] font-normal font-orbitron'>
             GALLERY
           </h1>

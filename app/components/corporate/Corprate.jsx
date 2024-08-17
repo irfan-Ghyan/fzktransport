@@ -26,11 +26,11 @@ const Corprate = () => {
   return (
     <div className='py-[60px]'>
       <div className='text-center mb-10 '>
-        <h1 className='text-[32px] md:text-[54px] text-[#ff0a01] font-bold font-orbitron'>
-          DON'T HESITATE TO CONTACT US
+        <h1 className='text-[32px] md:text-[54px] text-[#0c0c0c] font-bold font-orbitron'>
+          CONTACT US
         </h1>
         <p className='text-[14px] md:text-[18px] text-[#0c0c0c] font-bold font-jura mt-6'>
-          We're always here to assist with any questions or concerns you may have.
+          We are always here to assist with any questions or concerns you may have.
         </p>
       </div>
       <div className='flex justify-center items-center'>
