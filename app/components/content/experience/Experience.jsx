@@ -88,24 +88,24 @@ const Experience = () => {
 
       <div className='md:flex justify-between mt-[36px] md:mb-[41px]'>
         <div>
-          <h1 className='text-[14px] md:text-[24px] text-white font-black font-jura'>
+          <h1 className='text-[14px] md:text-[24px] text-[#ff0a01] font-black font-jura'>
             SERVICES <br />
-            <span className='text-[32px] md:text-[54px] text-white font-black font-orbitro'>OUR EXPERTISE</span>
+            <span className='text-[32px] md:text-[54px] text-gray-900 font-black font-orbitro'>OUR EXPERTISE</span>
           </h1>
         </div>
         <div className="flex top-buttons items-center">
           <div className='mt-8 md:mt-0 hidden xl:flex w-65 h-45'>
             <button
               onClick={scrollPrev}
-              className="cursor-pointer flex items-center justify-center px-6 py-4 ml-2 font-jura font-bold text-white "
+              className="cursor-pointer flex items-center justify-center px-6 py-4 ml-2 font-jura font-bold text-white bg-gray-500 hover:bg-[#ff0a01] rounde-full "
             >
               <Image src={leftArrow} alt="arrow" width={24.15} height={24.29} className='w-[24.15px] h-[24.29px]' />
             </button>
           </div>
-          <div className='mt-8 md:mt-0 hidden xl:flex w-65 h-45 button-slanted'>
+          <div className='mt-8 md:mt-0 hidden xl:flex w-65 h-45 '>
             <button
               onClick={scrollNext}
-              className="cursor-pointer flex items-center justify-center px-6 py-4 ml-2 font-jura font-bold text-white "
+              className="cursor-pointer flex items-center justify-center px-6 py-4 ml-2 font-jura font-bold text-white bg-[#ff0a01] hover:bg-gray-500 rounde-full"
             >
               <Image src={rightArrow} alt="arrow" width={24.15} height={24.29} className='w-[24.15px] h-[24.29px]' />
             </button>

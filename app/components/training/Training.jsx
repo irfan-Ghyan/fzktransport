@@ -5,21 +5,18 @@ import Link from 'next/link';
 
 const Training = () => {
 
-
-
-
   return (
     <div className=" w-full max-w-fulloverflow-hidden lg:h-[600px] xl:h-[700px] bg-cover bg-center px-4 md:px-0 " style={{ backgroundImage: "url('/assets/images/training/bg-2.png')" }}>
-      <div className="inset-0  px-4 md:flex md:flex-col  md:pr-6 py-[20px] lg:py-[100px] md:px-8 max-w-7xl mx-auto ">
+      <div className="inset-0  px-4 md:flex md:flex-col  md:pr-6 py-[20px] md:px-8 max-w-7xl mx-auto ">
         <div className='flex flex-col justify-between md:mt-[36px] md:mb-[41px] '>
 
-            <div className='py-[30px] lg:pt-[70px]'>
-            <h1 className='text-[14px] md:text-[24px] text-white font-black font-jura'>
+            <div className='py-[30px]'>
+            <h1 className='text-[14px] md:text-[24px] text-[#ff0a01] font-black font-jura'>
             ABOUT US <br />
-            <span className='text-[32px] md:text-[54px] text-white font-black font-orbitro'>WHO WE ARE?</span>
+            <span className='text-[32px] md:text-[54px] text-gray-900 font-black '>WHO WE ARE?</span>
           </h1>
-              <p className='md:w-[400px] lg:w-[550px] xl:w-[600px] md:text-[14px] lg:text-[18px] text-white font-bold font-jura mt-6'>
-              Discover immersive learning experiences at Teleios Dome. From educational trips exploring our factory to safety driving lessons and group racing instruction, we offer dynamic programs to engage learners of all ages. Prepare to embark on an educational journey at Teleios Dome.
+              <p className='md:w-[400px] lg:w-[550px] xl:w-[600px] md:text-[14px] lg:text-[18px] text-white font-normal font-jura mt-6'>
+              Our transport company is dedicated to providing top-notch pick-and-drop services along with exciting city tours across Dubai. Whether you're commuting to work, heading to the airport, or exploring the vibrant attractions of this dynamic city, we ensure a seamless and comfortable journey.<br/><br/> Our fleet of modern vehicles and professional drivers are committed to punctuality, safety, and customer satisfaction. From the iconic Burj Khalifa to the serene beaches of Jumeirah, our tour services offer you a chance to experience Dubai's wonders with ease and convenience. Trust us to make your travel in Dubai hassle-free and enjoyable.
               </p>
             </div>
           <div className="flex justify-center lg:justify-start m-bottom">

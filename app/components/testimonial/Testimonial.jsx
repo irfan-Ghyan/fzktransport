@@ -47,10 +47,15 @@ export default function Testimonial() {
     <div className="w-full overflow-hidden relative flex justify-center items-center py-[40px] md:py-[50px] lg:py-[100px]">
       <div className="max-w-7xl w-full px-4 md:px-8">
         <div className="mx-auto py-8">
-          <div className="border-solid border-b-[1px] border-white border-opacity-50 text-end"></div>
+          <div className="text-end"></div>
           <div className="md:flex md:justify-between items-cente mt-[36px] lg:mb-[41px]">
             <div>
-              <h1 className="text-[32px] md:text-[54px] text-white font-black font-orbitron">OUR HAPPY CUSTOMERS</h1>
+              <h1 className="text-[32px] md:text-[54px] text-[#ff0a01] font-normal font-orbitron">
+                TESTIMONIAL
+              </h1>
+              <p className="text-[14px] md:text-[24px] text-gray-900 font-NORMAL font-JURA">
+                  THE MAIN REASON FOR YOUR CHOICE IS OUR BUS
+                </p>
             </div>
             <div className="top-buttons flex items-center">
               <div className="mt-[20px] md:mt-[0px] w-65 h-45">
