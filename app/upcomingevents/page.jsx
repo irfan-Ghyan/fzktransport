@@ -4,8 +4,7 @@ import PremierLeague from '../components/premierleague/PremierLeague';
 import PremierLeagueDoha from '../components/premierleaguedoha/PremierLeagueDoha';
 import BahrainParty from '../components/bahrainparty/BahrainParty';
 
-const Page = () => {
-  return (
+const Page = () => (
     <div className="min-h-screen flex flex-col items-center">
       <div className="flex items-center justify-center px-4 lg:px-20 xl:px-40">
         <div className="text-center p-6 text-white pt-[80px] pb-[40px] lg:pb-[100px] lg:pt-[50px]">
@@ -29,6 +28,5 @@ const Page = () => {
       </div>
     </div>
   );
-}
 
 export default Page;
