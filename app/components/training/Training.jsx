@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Training = () => {
 
   return (
-    <div className=" w-full max-w-fulloverflow-hidden lg:h-[600px] xl:h-[700px] bg-cover bg-center px-4 md:px-0 " style={{ backgroundImage: "url('/assets/images/training/bg-2.png')" }}>
+    <div className=" w-full max-w-fulloverflow-hidden lg:h-[600px] xl:h-[700px] bg-cover bg-center px-4 md:px-0 " style={{ backgroundImage: "url('/assets/images/dome/bg8.png')" }}>
       <div className="inset-0  px-4 md:flex md:flex-col  md:pr-6 py-[20px] md:px-8 max-w-7xl mx-auto ">
         <div className='flex flex-col justify-between md:mt-[36px] md:mb-[41px] '>
 

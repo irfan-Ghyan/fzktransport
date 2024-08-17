@@ -46,7 +46,7 @@ export default function Testimonial() {
   return (
     <div className="w-full overflow-hidden relative flex justify-center items-center py-[40px]">
       <div className="max-w-7xl w-full px-4 md:px-8">
-        <div className="mx-auto py-8">
+        <div className="mx-auto ">
           <div className="text-end"></div>
           <div className="md:flex md:justify-between items-cente mt-[36px] lg:mb-[41px]">
             <div>

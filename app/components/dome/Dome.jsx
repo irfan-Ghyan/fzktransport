@@ -87,12 +87,12 @@ import React, { useState, useEffect } from 'react';
 const Dome = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const domes = [
-    { imageUrl: '/assets/images/dome/b-1.png' },
-    { imageUrl: '/assets/images/dome/S1.png' },
-    { imageUrl: '/assets/images/dome/S1.png' },
-    { imageUrl: '/assets/images/dome/S1.png' },
-    { imageUrl: '/assets/images/dome/S1.png' },
-    { imageUrl: '/assets/images/dome/S1.png' },
+    { imageUrl: '/assets/images/dome/bus1.jpeg' },
+    { imageUrl: '/assets/images/dome/bus2.jpeg' },
+    { imageUrl: '/assets/images/dome/bus3.jpeg' },
+    { imageUrl: '/assets/images/dome/bus4.jpeg' },
+    { imageUrl: '/assets/images/dome/bus6.jpeg' },
+    { imageUrl: '/assets/images/dome/bus7.jpeg' },
   ];
 
   const cardsToShow = 4;

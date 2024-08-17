@@ -4,8 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import logo from '../../../../public/assets/images/logo.png';
-// import Dropdown from '../dropdwon/Dropdown';
+import logo from '../../../../public/assets/images/dome/logo.png';
 import closenavbar from '../../../../public/assets/icons/navbarclose.png';
 
 const Navbar = ({ isTopBannerVisible }) => {
@@ -29,7 +28,7 @@ const Navbar = ({ isTopBannerVisible }) => {
     if (window.scrollY > 100 && isHiddenRoute) {
       setNavbarBg('bg-[#11072C] lg:bg-[#11072C]');
     } else if (window.scrollY > window.innerHeight) {
-      setNavbarBg('bg-[#11072C] lg:bg-[#11072C]');
+      setNavbarBg('bg-[#0c0c0c] lg:bg-[#0c0c0c]');
     } else {
       setNavbarBg('bg-opacity-0');
     }
@@ -60,34 +59,34 @@ const Navbar = ({ isTopBannerVisible }) => {
       <div className="flex justify-between items-center w-full">
         <div className="flex items-center">
           <Link href="/" onClick={closeMenu}>
-            <Image src={logo} alt="Logo" width={155} height={42.15} className="w-[135px] h-[32px] lg:w-[185px] xl:w-[185px] lg:h-[52px] xl:h-[52px]" />
+            <Image src={logo} alt="Logo" width={185} height={120} className="w-[185px] h-[120px] lg:w-[185px] xl:w-[185px]" />
           </Link>
         </div>
         <div className="flex-grow hidden xl:flex justify-center space-x-6 md:space-x-5 lg:space-x-5">
-          <Link href="/" className="text-white font-jura text-[12px] md:text-[14px] lg:text-[14px] font-normal lg:font-bold hover:text-[#ff0a01]" onClick={closeMenu}>
+          <Link href="/" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
             HOME
           </Link>
-          <Link href="/" className="text-white font-jura text-[12px] md:text-[14px] lg:text-[14px] font-normal lg:font-bold hover:text-[#ff0a01]" onClick={closeMenu}>
+          <Link href="/" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
             ABOUT US
           </Link>
-          <Link href="/" className="text-white text-[12px] md:text-[14px] lg:text-[14px] font-normal lg:font-bold font-jura hover:text-[#ff0a01]" onClick={closeMenu}>
+          <Link href="/" className="text-white text-[14px] lg:text-[18px] font-black font-jura hover:text-[#ff0a01]" onClick={closeMenu}>
             SERVICES
           </Link>
-          <Link href="/" className="text-white font-jura text-[12px] md:text-[14px] lg:text-[14px] font-normal lg:font-bold hover:text-[#ff0a01]" onClick={closeMenu}>
+          <Link href="/" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
             TESTIMONIAL
           </Link>
-          <Link href="/" className="text-white font-jura text-[12px] md:text-[14px] lg:text-[14px] font-normal lg:font-bold hover:text-[#ff0a01]" onClick={closeMenu}>
+          <Link href="/" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
            CONTACT US
           </Link>
 
         </div>
         <div className="hidden xl:flex items-center w-[145px] md:w-[192px] lg:w-[192px] h-[44px]">
-            <Link href="/explore" className="cursor-pointer px-2 py-[7px] lg:py-[13px] md:py-[13px] font-jura font-normal md:font-bold bg-gradient-to-r from-[#F56545] to-[#ff0a01] text-white ml-2 transition duration-300 flex items-center justify-center relative overflow-hidden rounded-full ">
+            <Link href="/explore" className="w-[200px] cursor-pointer px-2 py-[7px] lg:py-[13px] md:py-[13px] font-jura font-normal md:font-bold bg-gradient-to-r from-[#F56545] to-[#ff0a01] text-white ml-2 transition duration-300 flex items-center justify-center relative overflow-hidden rounded-full ">
                 <span className=''>GET A QUOTE</span>
               </Link>
         </div>
         <div className="xl:hidden flex-grow flex justify-center w-[145px] md:w-[192px] lg:w-[192px] h-[44px] px-4">
-              <Link href="/explore" className="cursor-pointer px-2 py-[7px] lg:py-[13px] md:py-[13px] font-jura font-normal md:font-bold bg-gradient-to-r from-[#F56545] to-[#ff0a01] text-white ml-2 transition duration-300 flex items-center justify-center relative overflow-hidden rounded-full ">
+              <Link href="/explore" className="w-[200px] cursor-pointer px-2 py-[7px] lg:py-[13px] md:py-[13px] font-jura font-normal md:font-bold bg-gradient-to-r from-[#F56545] to-[#ff0a01] text-white ml-2 transition duration-300 flex items-center justify-center relative overflow-hidden rounded-full ">
                 <span className=''>GET A QUOTE</span>
               </Link>
         </div>

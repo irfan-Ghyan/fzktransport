@@ -14,7 +14,7 @@ module.exports = {
       //     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       // },
       backgroundImage: {
-        'header-bg': "url('/assets/images/bg.jpeg')",
+        'header-bg': "url('/assets/images/dome/bg1.png')",
       },
       fontFamily: {
         jura: ['jura'],

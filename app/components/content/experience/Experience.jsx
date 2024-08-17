@@ -16,12 +16,12 @@ const Experience = () => {
   useEffect(() => {
     const fetchExperiences = async () => {
       const data = [
-        { title: '15 Minutes', description: 'Get to know our racing simulator with a 15-minute introductory session.', imageUrl: '/assets/images/experience/mintue1.png' },
-        { title: '30 Minutes', description: 'Choose your track, and your car and enjoy 30 minutes of adrenaline.', imageUrl: '/assets/images/experience/30mn.png' },
-        { title: '60 Minutes', description: 'Are you a hardcore racer? This package will challenge your stamina and abilities!', imageUrl: '/assets/images/experience/60mn.png' },
-        { title: '90 Minutes', description: 'and all inclusive access to the Dome’s cafe for 90 minutes ', imageUrl: '/assets/images/experience/vip.png' },
-        { title: 'Private Venue', description: 'Your comfort and your privacy with up to 19 guests in our Dome.', imageUrl: '/assets/images/mn4.png' },
-        { title: 'VIP experience', description: 'Get together with up to four other guests in our private area.', imageUrl: '/assets/images/experience/vip.png' },
+        { title: 'Urban/City Buses', description: 'Operate within cities, serving commuters with frequent stops at designated bus stops. These buses often run on fixed schedules and routes connecting various neighborhoods business districts and major landmarks.', imageUrl: '/assets/images/dome/bus1.jpeg' },
+        { title: 'Intercity/Long-Distance Buses', description: 'Provide transportation between cities or regions often covering longer distances with fewer stops. These buses typically offer more comfortable seating and amenities catering to travelers making longer trips.', imageUrl: '/assets/images/dome/bus2.jpeg' },
+        { title: 'Shuttle Service', description: 'These are specialized bus services that operate on specific routes, such as between airports and city centers or between large venues and parking lots. They are often used for short, frequent trips.', imageUrl: '/assets/images/dome/bus3.jpeg' },
+        { title: 'Charter Buses', description: 'Rented buses used for specific events or group travel. These buses are not part of a regular schedule but are hired for particular trips such as school trips corporate outings or tourist excursions. ', imageUrl: '/assets/images/dome/bus4.jpeg' },
+        { title: 'Express Buses', description: 'Operate on routes with limited stops designed to move passengers quickly between key locations such as from a suburb to a downtown area.', imageUrl: '/assets/images/dome/bus6.jpeg' },
+        { title: 'Long-Distance Buses', description: 'Provide transportation between cities or regions often covering longer distances with fewer stops. These buses typically offer more comfortable seating and amenities catering to travelers making longer trips.', imageUrl: '/assets/images/dome/bus7.jpeg' },
       ];
       setExperiences(data);
       setLoading(false);

@@ -2,9 +2,7 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-
 import Navbar from './navbar/Navbar';
-
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
@@ -47,7 +45,7 @@ const Header = () => {
             </div>
             <div className='w-[145px] md:w-[192px] lg:w-[192px] h-[44px]'>
               <Link href="/explore" className="cursor-pointer px-2 py-[7px] lg:py-[13px] md:py-[13px] font-jura font-normal md:font-bold bg-gradient-to-r from-[#F56545] to-[#ff0a01] text-white ml-2 transition duration-300 flex items-center justify-center relative overflow-hidden rounded-full ">
-                <span className=''>EXPLORE MORE</span>
+                <span className=''>READ MORE</span>
               </Link>
             </div>
           </div>

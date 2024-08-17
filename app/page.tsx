@@ -22,7 +22,7 @@ export default function Home() {
         <Dome />
       </div>
 
-      <div className="w-full bg-[#cc2c2c]">
+      <div className="w-full bg-[#8d2424]">
         <Testimonial />
       </div>
 

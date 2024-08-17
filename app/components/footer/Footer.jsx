@@ -1,20 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../../../public/assets/images/logobottom.png'
+import logo from '../../../public/assets/images/dome/logo.png'
 
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0c0c0c] text-white pt-10 lg:pt-20 px-8 lg:px-20 padding-px xl:px-40 max-w-full overflow-hidden">
+    <footer className="bg-[#0c0c0c] text-white py-10 lg:pt-20 px-8 lg:px-20 padding-px xl:px-40 max-w-full overflow-hidden">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="flex flex-col items-start ">
         <Image  
             src={logo}
             alt="Flag Icon"
-            width={53.68}
-            height={54.62}
-            className="w-[53.68px] h-[54.62px]"
+            width={100}
+            height={80}
+            className="w-[100px] h-[80px]"
           />
           <p className='text-white font-jura text-[13px] font-bold'>FOLLOW US</p>
           <div className="flex space-x-4 mt-[15px] ">

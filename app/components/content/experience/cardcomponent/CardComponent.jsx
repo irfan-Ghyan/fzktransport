@@ -1,11 +1,11 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+
 
 const CardComponent = ({ imageUrl, title, description }) => {
   return (
-    <div className="overflow-hidden bg-[#371F76] mb-5 items-center flex flex-col h-full">
+    <div className="overflow-hidden bg-gray-500 mb-5 items-center flex flex-col h-full hover:bg-[#ff0a01] ">
       <div className="relative w-full h-[200px]"> 
         <Image 
           src={imageUrl} 
