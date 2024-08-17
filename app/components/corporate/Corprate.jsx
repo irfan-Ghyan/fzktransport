@@ -36,7 +36,7 @@ const Corprate = () => {
       <div className='flex justify-center items-center'>
         <div className="w-full max-w-md p-8 bg-transparent ">
           {submitted ? (
-            <p className="text-center text-green-600">Thank you! Your message has been sent.</p>
+            <p className="text-center text-green-600">Your message has been sent successfully.</p>
           ) : (
             <form onSubmit={handleSubmit}>
               <div className="mb-4">

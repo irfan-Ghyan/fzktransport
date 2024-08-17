@@ -16,7 +16,7 @@ const Training = () => {
             <span className='text-[32px] md:text-[54px] text-white font-black '>WHO WE ARE?</span>
           </h1>
               <p className='md:w-[400px] lg:w-[550px] xl:w-[600px] md:text-[14px] lg:text-[18px] text-white font-normal font-jura mt-6'>
-              Our transport company is dedicated to providing top-notch pick-and-drop services along with exciting city tours across Dubai. Whether you're commuting to work, heading to the airport, or exploring the vibrant attractions of this dynamic city, we ensure a seamless and comfortable journey.<br/><br/> Our fleet of modern vehicles and professional drivers are committed to punctuality, safety, and customer satisfaction. From the iconic Burj Khalifa to the serene beaches of Jumeirah, our tour services offer you a chance to experience Dubai's wonders with ease and convenience. Trust us to make your travel in Dubai hassle-free and enjoyable.
+              Our transport company is dedicated to providing top notch pick and drop services along with exciting city tours across Dubai. Whether you are commuting to work, heading to the airport, or exploring the vibrant attractions of this dynamic city, we ensure a seamless and comfortable journey.<br/><br/> Our fleet of modern vehicles and professional drivers are committed to punctuality, safety, and customer satisfaction. From the iconic Burj Khalifa to the serene beaches of Jumeirah, our tour services offer you a chance to experience Dubai  wonders with ease and convenience. Trust us to make your travel in Dubai hassle-free and enjoyable.
               </p>
             </div>
           <div className="flex justify-center lg:justify-start m-bottom">
