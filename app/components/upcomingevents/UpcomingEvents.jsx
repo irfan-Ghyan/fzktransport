@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
-// import useUpcomingEventsData from '../useUpcomingEventsData';
 import CalendarPopup from '../calendarpopup/CalendarPopup';
 import StaningsPopup from '../standingspopup/StandingsPopup';
 import RaceResultsPopup from '../raceresultspopup/RaceResultsPopup';
@@ -10,17 +10,13 @@ import whatsapp from '../../../public/assets/images/whatsapp.png';
 import Image from 'next/image';
 
 
-
 const UpcomingEvents = () => {
-  // const { domes, loading } = useUpcomingEventsData();
+
   const [isCalendarPopupOpen, setIsCalendarPopupOpen] = useState(false);
   const [isStandingsPopupOpen, setIsStandingsPopupOpen] = useState(false);
   const [isRaceResultsPopupOpen, setIsRaceResultsPopupOpen] = useState(false);
 
 
-  // if (loading) {
-  //   return <div>Loading...</div>;
-  // }
 
   const openCalendarPopup = () => setIsCalendarPopupOpen(true);
   const closeCalendarPopup = () => setIsCalendarPopupOpen(false);

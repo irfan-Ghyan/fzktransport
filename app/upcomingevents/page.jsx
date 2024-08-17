@@ -1,8 +1,5 @@
 
-'use client';
-
 import React from 'react';
-// import UpcomingEvents from '../components/upcomingevents/UpcomingEvents';
 import PremierLeague from '../components/premierleague/PremierLeague';
 import PremierLeagueDoha from '../components/premierleaguedoha/PremierLeagueDoha';
 import BahrainParty from '../components/bahrainparty/BahrainParty';
@@ -19,7 +16,7 @@ const Page = () => {
         </div>
       </div>
       <div className="w-full flex flex-col items-center">
-        {/* <UpcomingEvents /> */}
+
         <div className="w-full flex justify-center">
           <PremierLeague />
         </div>
