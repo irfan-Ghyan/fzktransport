@@ -81,12 +81,12 @@ const Navbar = ({ isTopBannerVisible }) => {
 
         </div>
         <div className="hidden xl:flex items-center w-[145px] md:w-[192px] lg:w-[192px] h-[44px]">
-            <Link href="/explore" className="w-[200px] cursor-pointer px-2 py-[7px] lg:py-[13px] md:py-[13px] font-jura font-normal md:font-bold bg-gradient-to-r from-[#F56545] to-[#ff0a01] text-white ml-2 transition duration-300 flex items-center justify-center relative overflow-hidden rounded-full ">
+            <Link href="/" className="w-[200px] cursor-pointer px-2 py-[7px] lg:py-[13px] md:py-[13px] font-jura font-normal md:font-bold bg-gradient-to-r from-[#F56545] to-[#ff0a01] text-white ml-2 transition duration-300 flex items-center justify-center relative overflow-hidden rounded-full ">
                 <span className=''>GET A QUOTE</span>
               </Link>
         </div>
         <div className="xl:hidden flex-grow flex justify-center w-[145px] md:w-[192px] lg:w-[192px] h-[44px] px-4">
-              <Link href="/explore" className="w-[200px] cursor-pointer px-2 py-[7px] lg:py-[13px] md:py-[13px] font-jura font-normal md:font-bold bg-gradient-to-r from-[#F56545] to-[#ff0a01] text-white ml-2 transition duration-300 flex items-center justify-center relative overflow-hidden rounded-full ">
+              <Link href="/" className="w-[200px] cursor-pointer px-2 py-[7px] lg:py-[13px] md:py-[13px] font-jura font-normal md:font-bold bg-gradient-to-r from-[#F56545] to-[#ff0a01] text-white ml-2 transition duration-300 flex items-center justify-center relative overflow-hidden rounded-full ">
                 <span className=''>GET A QUOTE</span>
               </Link>
         </div>
@@ -99,7 +99,7 @@ const Navbar = ({ isTopBannerVisible }) => {
       {menuOpen && (
         <div ref={menuRef} className="xl:hidden bg-[#ff0a01] w-[50%] absolute right-0 top-full mx-4">
           <div className="flex flex-col items-start px-4 py-4">
-            <Link href="/experience" className="block w-full text-left px-4 py-4 text-white font-jura text-[14px] font-bold hover:text-[#ff0a01]" onClick={closeMenu}>
+            <Link href="/" className="block w-full text-left px-4 py-4 text-white font-jura text-[14px] font-bold hover:text-[#ff0a01]" onClick={closeMenu}>
               HOME
             </Link>
             <Link href="/" className="block w-full text-left px-4 py-4 text-white font-jura text-[14px] hover:text-[#ff0a01]" onClick={closeMenu}>
