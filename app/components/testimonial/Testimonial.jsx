@@ -15,13 +15,13 @@ export default function Testimonial() {
   const [currentEventIndex, setCurrentEventIndex] = useState(0);
 
   const testimonials = [
-    { title: 'Annette Black', description: 'I finally opened the package and used the system today. It is gorgeous, and I can tell you took great pride in building it. I really appreciate it.', imageUrl: '/assets/images/dome/girl.png' },
-    { title: 'Marvin McKinney', description: 'Sturdy enclosure, but the game lacks a reset button, which means you have to turn it off and on again to play another game.', imageUrl: '/assets/images/dome/man.png' },
-    { title: 'Robert Fox', description: 'Love the racing games on this cabinet. It is tall enough for a 6-foot person and easy to use. The cabinet also looks great.', imageUrl: '/assets/images/dome/man1.png' },
-    { title: 'Annette Black', description: 'I finally opened the package and used the system today. It is gorgeous, and I can tell you took great pride in building it. I really appreciate it.', imageUrl: '/assets/images/dome/girl2.png' },
-    { title: 'Marvin McKinney', description: 'Sturdy enclosure, but the game lacks a reset button, which means you have to turn it off and on again to play another game.', imageUrl: '/assets/images/dome/man.pn' },
-    { title: 'Robert Fox', description: 'Love the racing games on this cabinet. It is tall enough for a 6-foot person and easy to use. The cabinet also looks great.', imageUrl: '/assets/images/dome/girl.png' },
-    { title: 'Annette Black', description: 'I finally opened the package and used the system today. It is gorgeous, and I can tell you took great pride in building it. I really appreciate it.', imageUrl: '/assets/images/dome/girl2.png' },
+    { title: 'Annette Black', description: 'feroz khan transport has been our trusted partner for several years. Their buses are always clean comfortable and punctual. Our employees appreciate the reliability and professionalism they bring to every trip. We highly recommend their services for anyone looking for quality transportation.', imageUrl: '/assets/images/dome/girl.png' },
+    { title: 'Marvin McKinney', description: 'We have been using feroz khan transport for our daily employee commutes and the experience has been outstanding. The drivers are courteous, and the buses are always well-maintained. It is a stress-free way to ensure our team arrives on time every day.', imageUrl: '/assets/images/dome/man.png' },
+    { title: 'Robert Fox', description: 'feroz khan transport provided excellent service during our company is annual outing. The buses were spacious, and the entire process was smooth from booking to drop-off. We couldnot have asked for a better transport partner for our event', imageUrl: '/assets/images/dome/man1.png' },
+    { title: 'Annette Black', description: 'Our school has been using feroz khan transport for student field trips and the service has been fantastic. The drivers are responsible and the company always ensures the safety of our children. We feel confident in their hands every time.', imageUrl: '/assets/images/dome/girl2.png' },
+    { title: 'Marvin McKinney', description: 'I have been using feroz khan transport for my daily commute, and I couldnot be happier. The buses are always on time, and the ride is comfortable. It is a hassle-free and affordable way to travel across the city.', imageUrl: '/assets/images/dome/man.pn' },
+    { title: 'Annette Black', description: 'feroz khan transport has been our trusted partner for several years. Their buses are always clean comfortable and punctual. Our employees appreciate the reliability and professionalism they bring to every trip. We highly recommend their services for anyone looking for quality transportation.', imageUrl: '/assets/images/dome/girl.png' },
+    { title: 'Marvin McKinney', description: 'We have been using feroz khan transport for our daily employee commutes and the experience has been outstanding. The drivers are courteous, and the buses are always well-maintained. It is a stress-free way to ensure our team arrives on time every day.', imageUrl: '/assets/images/dome/man.png' },
   ];
 
   const scrollNext = () => {

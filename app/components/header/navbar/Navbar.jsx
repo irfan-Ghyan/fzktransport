@@ -66,16 +66,16 @@ const Navbar = ({ isTopBannerVisible }) => {
           <Link href="/" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
             HOME
           </Link>
-          <Link href="/" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
+          <Link href="/aboutus" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
             ABOUT US
           </Link>
-          <Link href="/" className="text-white text-[14px] lg:text-[18px] font-black font-jura hover:text-[#ff0a01]" onClick={closeMenu}>
+          <Link href="/services" className="text-white text-[14px] lg:text-[18px] font-black font-jura hover:text-[#ff0a01]" onClick={closeMenu}>
             SERVICES
           </Link>
-          <Link href="/" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
+          {/* <Link href="/" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
             TESTIMONIAL
-          </Link>
-          <Link href="/" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
+          </Link> */}
+          <Link href="/contact" className="text-white font-jura text-[14px] lg:text-[18px] font-black hover:text-[#ff0a01]" onClick={closeMenu}>
            CONTACT US
           </Link>
 
@@ -102,16 +102,16 @@ const Navbar = ({ isTopBannerVisible }) => {
             <Link href="/" className="block w-full text-left px-4 py-4 text-white font-jura text-[14px] font-bold hover:text-[#ff0a01]" onClick={closeMenu}>
               HOME
             </Link>
-            <Link href="/" className="block w-full text-left px-4 py-4 text-white font-jura text-[14px] hover:text-[#ff0a01]" onClick={closeMenu}>
+            <Link href="/aboutus" className="block w-full text-left px-4 py-4 text-white font-jura text-[14px] hover:text-[#ff0a01]" onClick={closeMenu}>
               ABOUT US
             </Link>
-            <Link href="/" className="block w-full text-left px-4 py-4 text-white font-jura font-bold text-[14px] hover:text-[#ff0a01]" onClick={closeMenu}>
+            <Link href="/services" className="block w-full text-left px-4 py-4 text-white font-jura font-bold text-[14px] hover:text-[#ff0a01]" onClick={closeMenu}>
               SERVICES
             </Link>
-            <Link href="/" className="block w-full text-left px-4 py-4 text-white text-[14px] font-bold font-jura hover:text-[#ff0a01]" onClick={closeMenu}>
+            {/* <Link href="/" className="block w-full text-left px-4 py-4 text-white text-[14px] font-bold font-jura hover:text-[#ff0a01]" onClick={closeMenu}>
              TESTIMONIAL
-            </Link>
-            <Link href="/" className="block w-full text-left px-4 py-4 text-white font-jura text-[14px] font-bold hover:text-[#ff0a01]" onClick={closeMenu}>
+            </Link> */}
+            <Link href="/contact" className="block w-full text-left px-4 py-4 text-white font-jura text-[14px] font-bold hover:text-[#ff0a01]" onClick={closeMenu}>
               CONTACT US
             </Link>
             {/* <Link href="/other" className="block w-full text-left px-4 py-8 text-white font-jura font-bold text-[14px] hover:text-[#A72CCF]" onClick={closeMenu}>
