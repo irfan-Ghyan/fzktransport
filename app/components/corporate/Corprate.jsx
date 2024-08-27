@@ -25,14 +25,14 @@ const Corprate = () => {
 
   return (
     <div className='py-[60px]'>
-      <div className='mb-10 '>
+      <div className='mb-10 text-center'>
         <h1 className='text-[32px] md:text-[54px] text-[#0c0c0c] font-bold font-orbitron'>
           CONTACT US
         </h1>
         <p className='text-[14px] md:text-[18px] text-[#0c0c0c] font-bold font-jura mt-6'>
           We are always here to assist with any questions or concerns you may have.
         </p>
-        <p className='text-[14px] md:text-[18px] text-[#0c0c0c] font-bold font-jura mt-6'>
+        <p className='text-[14px] md:text-[24px] text-[#0c0c0c] font-bold font-jura mt-6'>
            +971 55 605 0153 - +971 52 493 1838
         </p>
       </div>

@@ -16,7 +16,7 @@ const Page = () => {
           <div className='flex w-full py-20'>
           <div className='w-1/4'>
             <Image
-              src="/assets/images/dome/man1.png"
+              src="/assets/images/dome/logo.png"
               alt={name}
               width={400}
               height={500}
