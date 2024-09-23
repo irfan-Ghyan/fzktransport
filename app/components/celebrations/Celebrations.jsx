@@ -311,7 +311,7 @@ const Celebrations = () => {
 
   return (
     <div className="slider-wrapper h-auto">
-      <h1 className="text-[32px] md:text-[54px] mb-4 text-white font-black text-center font-orbitron">CELEBRATIONS</h1>
+      <h2 className="text-[32px] md:text-[54px] mb-4 text-white font-black text-center font-orbitron">CELEBRATIONS</h2>
       <p className="text-[14px] md:text-[18px] mb-4 text-center text-white font-black text-balance font-jura px-[40px]">
       Celebrate in style at Teleios Dome. Our high-tech yet cozy atmosphere, top-notch amenities, and state-of-the-art racing simulators create an unforgettable backdrop for any occasion. From birthdays and stag dos to graduations and beyond, we will tailor an experience your guests will never forget.
       </p>

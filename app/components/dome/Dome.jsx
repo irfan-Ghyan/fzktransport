@@ -47,9 +47,9 @@ const Dome = () => {
     <div className="flex justify-center items-center">
       <div className='w-full max-w-7xl px-4 md:px-8'>
         <div className='pt-[40px] text-center'>
-          <h1 className='text-[32px] md:text-[54px] text-[#ff0a01] font-normal font-orbitron'>
+          <h2 className='text-[32px] md:text-[54px] text-[#ff0a01] font-normal font-orbitron'>
             GALLERY
-          </h1>
+          </h2>
         </div>
         <div className="relative w-full overflow-hidden flex items-center py-[40px]">
           <button onClick={prevSlide} className="p-4 bg-gray-600 text-white absolute left-0 z-10 hover:bg-[#ff0a01]">&lt;</button>

@@ -50,9 +50,9 @@ export default function Testimonial() {
           <div className="text-end"></div>
           <div className="md:flex md:justify-between items-cente mt-[36px] lg:mb-[41px]">
             <div>
-              <h1 className="text-[32px] md:text-[54px] text-white font-normal font-orbitron">
+              <h2 className="text-[32px] md:text-[54px] text-white font-normal font-orbitron">
                 TESTIMONIAL
-              </h1>
+              </h2>
               <p className="text-[14px] md:text-[24px] text-white font-NORMAL font-JURA">
                   THE MAIN REASON FOR YOUR CHOICE IS OUR BUS
                 </p>

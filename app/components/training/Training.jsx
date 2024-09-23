@@ -11,10 +11,10 @@ const Training = () => {
         <div className='flex flex-col justify-between md:mt-[36px] md:mb-[41px] '>
 
             <div className='py-[30px]'>
-            <h1 className='text-[14px] md:text-[24px] text-[#ff0a01] font-black font-jura'>
+            <h2 className='text-[14px] md:text-[24px] text-[#ff0a01] font-black font-jura'>
             ABOUT US <br />
             <span className='text-[32px] md:text-[54px] text-white font-black '>WHO WE ARE?</span>
-          </h1>
+          </h2>
               <p className='md:w-[400px] lg:w-[550px] xl:w-[600px] md:text-[14px] lg:text-[18px] text-white font-normal font-jura mt-6 text-balance'>
               Our transport company is dedicated to providing top notch pick and drop services along with exciting city tours across Dubai. Whether you are commuting to work heading to the airport or exploring the vibrant attractions of this dynamic city, we ensure a seamless and comfortable journey. Our fleet of modern vehicles and professional drivers are committed to punctuality safety and customer satisfaction. From the iconic Burj Khalifa to the serene beaches of Jumeirah our tour services offer you a chance to experience Dubai  wonders with ease and convenience. Trust us to make your travel in Dubai hassle-free and enjoyable.
               </p>
