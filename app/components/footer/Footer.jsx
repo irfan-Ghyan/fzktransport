@@ -43,22 +43,17 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="/experince" className="hover:underline text-white font-jura text-[13px] font-bold">
+              <Link href="/about" className="hover:underline text-white font-jura text-[13px] font-bold">
               About us
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:underline text-white font-jura text-[13px] font-bold">
+              <Link href="/services" className="hover:underline text-white font-jura text-[13px] font-bold">
               Services
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:underline text-white font-jura text-[13px] font-bold">
-              Testimonial
-              </Link>
-            </li>
-            <li>
-              <Link href="/about" className="hover:underline text-white font-jura text-[13px] font-bold">
+              <Link href="/contact" className="hover:underline text-white font-jura text-[13px] font-bold">
               Contact us
               </Link>
             </li>
