@@ -136,8 +136,9 @@ const Corprate = () => {
           {submitted ? (
             <p className="text-center text-green-600">Your message has been sent successfully.</p>
           ) : (
+            // https://getform.io/f/ayvpldxb
             <form
-              action="https://getform.io/f/ayvpldxb"
+              action="https://getform.io/f/bdryvpvb"
               method="POST"
             >
               <div className="mb-4">
