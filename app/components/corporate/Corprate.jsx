@@ -42,7 +42,7 @@ const Corprate = () => {
           {submitted ? (
             <p className="text-center text-green-600">Your message has been sent successfully.</p>
           ) : (
-            <form onSubmit={handleSubmit}>
+            <form action="https://getform.io/f/ayvpldxb" method="POST"  onSubmit={handleSubmit} >
               <div className="mb-4">
                 <label htmlFor="name" className="block text-[#0c0c0c] font-bold mb-2">
                   Name

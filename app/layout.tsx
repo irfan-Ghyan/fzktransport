@@ -12,7 +12,11 @@ interface RootLayoutProps {
   children: ReactNode;
 }
 
+// ES5 function
+
 export default function RootLayout({ children }: RootLayoutProps) {
+
+
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -23,3 +27,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
     </html>
   );
 }
+
+
+
