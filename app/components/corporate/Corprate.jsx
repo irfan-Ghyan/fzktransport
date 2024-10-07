@@ -102,6 +102,7 @@
 // export default Corprate;
 
 
+'use client';
 import React, { useState } from 'react';
 
 const Corprate = () => {
